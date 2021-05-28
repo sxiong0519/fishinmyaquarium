@@ -5,10 +5,24 @@
 
 .fishlist {
     background: blueviolet;
-    flex: 1;
+    flex: 1, 50%;
+}
+
+.fishOwned {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fish {
+    width: 30%;
 }
 
 .tips {
      background: orange;
      flex: 1, 75%;
+}
+
+.image {
+    height: 150px;
+      width: 150px;
 }
