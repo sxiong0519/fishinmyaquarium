@@ -1,21 +1,14 @@
 
 .content {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
 }
 
 .fishlist {
-    display: flex;
-    flex-wrap: wrap;
+    background: blueviolet;
     flex: 1;
 }
 
 .tips {
-    display: flex;
-    flex: -3;
-}
-
-.advices {
-    justify-content: flex-end;
+     background: orange;
+     flex: 1, 75%;
 }
