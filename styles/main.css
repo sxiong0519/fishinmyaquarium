@@ -1,0 +1,21 @@
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.fishlist {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.tips {
+    display: flex;
+    flex: -3;
+}
+
+.advices {
+    justify-content: flex-end;
+}
